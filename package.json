@@ -5,7 +5,11 @@
   "repository": "git@github.com:kaushnian/js-stack-from-scratch.git",
   "author": "Yevgeny Kaushnian <kefbox@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "babel-node src"
+  },
   "devDependencies": {
-    "babel-cli": "6.26.0"
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0"
   }
 }
