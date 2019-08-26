@@ -7,18 +7,24 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src"
+    "test": "eslint src --fix && flow"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
+    "babel-eslint": "10.0.3",
     "babel-preset-env": "1.7.0",
+    "babel-preset-flow": "6.23.0",
     "eslint": "6.2.2",
     "eslint-config-airbnb": "18.0.1",
     "eslint-plugin-compat": "3.3.0",
+    "eslint-plugin-flowtype": "4.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "flow-bin": "0.106.1"
   },
-  "browserslist": ["> 1%"]
+  "browserslist": [
+    "> 1%"
+  ]
 }
