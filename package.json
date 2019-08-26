@@ -7,9 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src --fix && flow && jest --coverage",
-    "precommit": "yarn test",
-    "prepush": "yarn test"
+    "test": "eslint src --fix && flow && jest --coverage"
   },
   "devDependencies": {
     "@babel/preset-env": "7.5.5",
