@@ -1,0 +1,11 @@
+{
+  "name": "js-stack-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kaushnian/js-stack-from-scratch.git",
+  "author": "Yevgeny Kaushnian <kefbox@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0"
+  }
+}
